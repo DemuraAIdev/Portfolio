@@ -20,6 +20,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <meta
           property="og:url"
           content={`https://vahryiskandar.my.id${router.asPath}`}

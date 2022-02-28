@@ -28,6 +28,18 @@ const userData = {
       imgUrl: "/den.png",
     }
   ],
+  NFT: [
+    {
+      title: "Citizen",
+      link: "https://opensea.io/collection/demuracitizen",
+      imgUrl: "/citizen.jpg",
+    },
+    {
+      title: "City",
+      link: "https://opensea.io/collection/demuracity",
+      imgUrl: "/city.jpg",
+    }
+  ],
   about: {
     title:
       "I`am a developer Javascript",
