@@ -1,5 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
+import Image from "next/image";
 
 export default function Nft() {
     return (
@@ -32,9 +33,10 @@ const NFTcard = ({ title, link, imgUrl, number }) => {
         <a href={link} className="w-full block shadow-2xl">
             <div className="relative overflow-hidden">
                 <div className="h-72 object-cover">
-                    <img
+                    <Image
                         src={imgUrl}
                         alt="portfolio"
+                        layout="fill"
                         className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
                     />
                 </div>

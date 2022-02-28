@@ -2,6 +2,7 @@ import React from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
+import Image from "next/image";
 
 export default function Hero() {
     const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
@@ -36,7 +37,13 @@ export default function Hero() {
             {/* Image container */}
             <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
                 <div className="w-3/4 ">
-                    <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
+                    <Image
+                        src={userData.avatarUrl}
+                        alt="avatar"
+                        width={500}
+                        height={500}
+                        className="shadow"
+                    />
                     <div className="flex flex-row justify-between mt-4">
                         <div className="flex flex-row space-x-4">
                             <svg

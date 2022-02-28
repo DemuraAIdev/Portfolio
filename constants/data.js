@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "DemuraAIdev",
   name: "Abdul Vaiz Vahry Iskandar",
   designation: "Developer",
-  avatarUrl: "/Moon.jpg",
+  avatarUrl: "/avatar.jpg",
   email: "demura@cintanime.xyz",
   phone: "+62 895621990556",
   address: "indonesia, Bengkulu, Kota Bengkulu.",

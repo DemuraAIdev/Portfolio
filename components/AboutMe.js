@@ -1,5 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
+import Image from "next/image";
 
 export default function AboutMe() {
   return (
